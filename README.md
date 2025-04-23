@@ -1,5 +1,5 @@
 # HGMamba
-PyTorch implementation of "(HGMamba: Enhancing 3D Human Pose Estimation with a HyperGCN-Mamba Network)[https://arxiv.org/abs/2504.06638]", IJCNN2025..
+PyTorch implementation of "[HGMamba: Enhancing 3D Human Pose Estimation with a HyperGCN-Mamba Network](https://arxiv.org/abs/2504.06638)", IJCNN2025..
 
 ## 🛠️ Environment
 
