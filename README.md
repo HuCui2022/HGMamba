@@ -1,7 +1,8 @@
 # HGMamba
 PyTorch implementation of "HGMamba: Enhancing 3D Human Pose Estimation with a HyperGCN-Mamba Network", IJCNN2025..
 
-## Environment
+## 🛠️ Environment
+
 The project is developed under the following environment:
 - Linux
 - Python 3.8.10
@@ -15,6 +16,26 @@ For installation of the project dependencies, please run:
 -  `pip install mamba-ssm[causal-conv1d]`: To install core Mamba package and causal-conv1d.
 
 
+## 📂 Dataset
+### Human3.6M
+#### Preprocessing
+1. Download the fine-tuned Stacked Hourglass detections of [MotionBERT](https://github.com/Walter0807/MotionBERT/blob/main/docs/pose3d.md)'s preprocessed H3.6M data [here](https://1drv.ms/u/s!AvAdh0LSjEOlgU7BuUZcyafu8kzc?e=vobkjZ) and unzip it to 'data/motion3d'.
+2. Slice the motion clips by running the following python code in `data/preprocess` directory:
+
+**For MotionAGFormer-Base and MotionAGFormer-Large**:
+```text
+python h36m.py  --n-frames 243
+```
+
+**For MotionAGFormer-Small**:
+```text
+python h36m.py --n-frames 81
+```
+
+**For MotionAGFormer-XSmall**:
+```text
+python h36m.py --n-frames 27
+```
 
 
 # 🔧 Code Release in Progress  
