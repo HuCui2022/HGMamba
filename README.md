@@ -44,9 +44,10 @@ python h36m.py --n-frames 27
 Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for dataset setup. After preprocessing, the generated .npz files (`data_train_3dhp.npz` and `data_test_3dhp.npz`) should be located at `data/motion3d` directory.
 
 
-
-
-
+## 🏋️‍♂️ Training
+coming soon
+## 🧪 Testing
+coming soon
 # 🔧 Code Release in Progress  
 
 We are currently **organizing and cleaning** the code before making it fully available to the public.  
