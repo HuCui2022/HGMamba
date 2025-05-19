@@ -45,9 +45,15 @@ Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for
 
 
 ## 🏋️‍♂️ Training
-coming soon
+```
+python main.py --config xxx.yaml
+```
+
 ## 🧪 Testing
-coming soon
+```
+python main.py --config xxx.yaml (need to set evalue_only)
+```
+
 # 🔧 Code Release in Progress  
 
 We are currently **organizing and cleaning** the code before making it fully available to the public.  
