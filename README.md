@@ -1,6 +1,6 @@
 # HGMamba
 PyTorch implementation of "[HGMamba: Enhancing 3D Human Pose Estimation with a HyperGCN-Mamba Network](https://arxiv.org/abs/2504.06638)", IJCNN2025..
-
+![HGMamba](./framework.png)
 ## 🛠️ Environment
 
 The project is developed under the following environment:
