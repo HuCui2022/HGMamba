@@ -58,10 +58,8 @@ python main.py --config xxx.yaml (need to set evalue_only)
 
 We are currently **organizing and cleaning** the code before making it fully available to the public.  
 
-### 📅 Expected Release Timeline  
-- ✅ Initial data preparation  
-- 🔄 Code refactoring and cleanup (In Progress)  
-- 🔜 Documentation and final review  
+### 📅 weight:  
+- comming soon...  
 
 Stay tuned for updates, and feel free to ⭐ the repository for notifications!  
 
